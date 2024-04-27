@@ -1,0 +1,12 @@
+#create an example workflow
+name: hello
+on:
+  push:
+    branches:
+      - '*'
+jobs:
+  Hello-World:
+    runs-on: self-hosted
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"

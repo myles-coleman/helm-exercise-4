@@ -1,0 +1,4 @@
+repository: myles-coleman/helm-exercise-4
+
+labels:
+  runner: "self-hosted"
